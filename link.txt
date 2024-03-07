@@ -1,0 +1,2 @@
+ghcr.io/rezasatria23/item-app:v1
+=

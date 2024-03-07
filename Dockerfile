@@ -19,3 +19,5 @@ EXPOSE 8080
 
 # menjalankan server saat container diluncurkan
 CMD ["npm", "start"]
+
+# create BY Reza Satria Tama

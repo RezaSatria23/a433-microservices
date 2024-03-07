@@ -27,3 +27,5 @@ echo -e "\nPublishing image to GitHub Container Registry:"
 docker push ghcr.io/$github_account/$image_name:$image_version
 
 echo -e "\nDone."
+
+# create BY Reza Satria Tama
