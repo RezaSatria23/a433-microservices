@@ -20,7 +20,7 @@ docker images
 
 # log masuk ke GitHub Container Registry
 echo -e "\nLogin into GitHub Container Registry:"
-docker login ghcr.io -u $github_account -p $GHCR_PAT_TOKEN
+docker login ghcr.io -u $github_account 
 
 # mengunggah image ke GitHub Container Registry
 echo -e "\nPublishing image to GitHub Container Registry:"
