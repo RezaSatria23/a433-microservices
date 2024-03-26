@@ -14,4 +14,4 @@ RUN npm install
 EXPOSE 3001
 
 # menjalankan server saat container diluncurkan
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
