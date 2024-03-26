@@ -7,6 +7,9 @@ WORKDIR /app
 # menyalin source code ke working directory di container
 COPY . .
 
+# ENV Variabel AMQP_URL
+ENV NODE_ENV=production
+
 # menginstal dependencies
 RUN npm install
 
